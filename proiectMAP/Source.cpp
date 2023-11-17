@@ -11,6 +11,7 @@ bool nuAtaca(int board[][N], int linie, int col) {
         if (board[linie][i] == 1)
             return false;
     for (int i = linie, j = col; i >= 0 && j >= 0; i--, j--) { 
+        if (board[i][j] == 1)
             return false;
     }
     for (int i = linie, j = col; i < N && j >= 0; i++, j--) 
@@ -20,7 +21,7 @@ bool nuAtaca(int board[][N], int linie, int col) {
 }
 
 bool rezolvaTabla(int tabla[][N], int col) {
-    if (col == N) { //daca a ajuns la ultima coloana printeaza tabla
+    if (col == N) { 
         cout << "-------------------------------" << endl;
         for (int i = 0; i < N; i++) {
             for (int j = 0; j < N; j++)

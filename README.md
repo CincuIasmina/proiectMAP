@@ -14,5 +14,8 @@ Funcția <b>nuAtaca</b> asigură că regina plasată într-o anumită poziție n
 Funcția <b>rezolvaTabla</b> parcurge recursiv coloanele și încearcă să plaseze reginele în fiecare coloană în parte.</p>
 <p>Programul afișează tabla de șah pentru fiecare soluție găsită și numărul total de soluții posibile.</p>
 <h2>Bibliografie:</h2>
+<p>https://science.hotnews.ro/stiri-tehnologie-21984078-cel-care-rezolva-puzzle-printr-cod-computerizat-poate-castiga-1-milion-dolari.htm</p>
+<p>https://www.scrigroup.com/calculatoare/algoritmi/Metoda-Backtracking-Exemplu-pr52764.php</p>
+<p>https://ro.wikipedia.org/wiki/Problema_damelor</p>
 </body>
 </html>
